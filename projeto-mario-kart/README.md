@@ -1,7 +1,7 @@
 # Corrida de Personagens em JavaScript
 
-![JavaScript](https://img.shields.io/badge/JavaScript-game%20logic-yellow?style=flat-square&logo=javascript)
-![Node.js](https://img.shields.io/badge/Node.js-terminal%20runtime-green?style=flat-square&logo=nodedotjs)
+![JavaScript](https://img.shields.io/badge/JavaScript-Language%20Programming-yellow?style=flat-square&logo=javascript)
+![Node.js](https://img.shields.io/badge/Node.js-Terminal%20Runtime-green?style=flat-square&logo=nodedotjs)
 
 ## Descrição
 
