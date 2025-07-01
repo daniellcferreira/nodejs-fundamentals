@@ -2,6 +2,7 @@
   "name": "npm-packages-basic",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,8 @@
   "description": "",
   "dependencies": {
     "chalk": "^5.4.1"
+  },
+  "devDependencies": {
+    "log-symbols": "^7.0.1"
   }
 }
