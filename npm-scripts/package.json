@@ -1,0 +1,15 @@
+{
+  "name": "npm-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prebuild": "npm install",
+    "star:dev": "node src/index.js",
+    "star:watch": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
