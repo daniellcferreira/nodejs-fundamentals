@@ -30,4 +30,3 @@ A interface é feita com prompts interativos, e o código foi estruturado de for
   - Personalização com variáveis de ambiente:
     - Tamanho da senha (`PASSWORD_LENGTH`)
     - Inclusão de letras maiúsculas/minúsculas, números e caracteres especiais
-
