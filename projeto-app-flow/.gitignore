@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+build/
+
+# Informações de compilação TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do VSCode (opcional, caso queira manter pessoais)
+.vscode/
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# Ambiente (caso use variáveis de ambiente)
+.env
+.env.local
