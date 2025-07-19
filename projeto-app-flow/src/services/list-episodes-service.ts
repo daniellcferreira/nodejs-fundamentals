@@ -1,7 +1,7 @@
-
+import { repositoryPodcast } from "../repositories/podcasts-repository"
 
 export const serviceListEpisodes = async() => {
-  const data = [{name: "Exemplo"}]
+  const data = await repositoryPodcast()
 
   return data
 }
