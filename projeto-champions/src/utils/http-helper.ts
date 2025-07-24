@@ -1,7 +1,4 @@
-interface HttpResponse {
-  statusCode: number
-  body: any
-}
+import { HttpResponse } from "../models/http-response-model"
 
 export const ok = (data: any): HttpResponse => {
   return {
