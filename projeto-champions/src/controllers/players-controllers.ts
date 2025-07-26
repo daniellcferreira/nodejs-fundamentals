@@ -1,5 +1,5 @@
 import { Request, Response } from "express"
-import { createPlayerService, getPlayerByIdService, getPlayerService } from "../services/players-service"
+import { createPlayerService, deletePlayerService, getPlayerByIdService, getPlayerService } from "../services/players-service"
 import { noContent, ok } from "../utils/http-helper"
 
 export const getPlayer = async (req: Request, res: Response) => {
@@ -27,4 +27,11 @@ export const postPlayer = async (req: Request, res: Response) => {
     const response = await noContent()
     res.status(response.statusCode).json(response.body)
   }
+}
+
+export const deletePlayer = async (req: Request, res: Response) => {
+  const id = parseInt(req.params.id)
+  const httpResponse = await deletePlayerService(id)
+
+  res.status(httpResponse.statusCode).json(httpResponse.body)
 }

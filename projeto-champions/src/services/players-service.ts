@@ -1,5 +1,6 @@
+import { deletePlayer } from "../controllers/players-controllers"
 import { PlayerModel } from "../models/player-model"
-import { findAllPlayers, findPlayerById, insertPlayer } from "../repositories/players-repository"
+import { deleteOnePlayer, findAllPlayers, findPlayerById, insertPlayer } from "../repositories/players-repository"
 import { badRequest, created, noContent, ok } from "../utils/http-helper"
 
 
@@ -40,3 +41,13 @@ export const createPlayerService = async (player: PlayerModel) => {
   }
   return response
 }
+
+export const deletePlayerService = async (id: number) => {
+  let response = null
+
+  await deleteOnePlayer(id)
+
+  response = ok({ message: "Player deleted successfully" })
+
+  return response
+  }
