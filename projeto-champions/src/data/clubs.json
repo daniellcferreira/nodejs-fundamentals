@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Real Madrid"
+  },
+  {
+    "id": 2,
+    "name": "FC Barcelona"
+  },
+  {
+    "id": 3,
+    "name": "Manchester United"
+  },
+  {
+    "id": 4,
+    "name": "Liverpool"
+  },
+  {
+    "id": 5,
+    "name": "Chelsea"
+  },
+  {
+    "id": 6,
+    "name": "Arsenal"
+  },
+  {
+    "id": 7,
+    "name": "Manchester City"
+  },
+  {
+    "id": 8,
+    "name": "Tottenham Hotspur"
+  },
+  {
+    "id": 9,
+    "name": "Juventus"
+  },
+  {
+    "id": 10,
+    "name": "Inter"
+  }
+]
