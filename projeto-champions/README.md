@@ -5,7 +5,6 @@
 ![Express](https://img.shields.io/badge/Express-Framework-000000?style=flat-square&logo=express)
 ![CORS](https://img.shields.io/badge/CORS-Enabled-4B8BBE?style=flat-square&logo=cors)
 ![JSON](https://img.shields.io/badge/JSON-Data-000000?style=flat-square&logo=json)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=flat-square)
 
 ## Descrição
 
